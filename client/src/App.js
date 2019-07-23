@@ -19,7 +19,7 @@ class App extends Component {
       {
         id: 3,
         title: "Buy groceries",
-        completed: false
+        completed: true
       },
     ]
   }
