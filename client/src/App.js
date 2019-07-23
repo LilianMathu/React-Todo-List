@@ -14,7 +14,7 @@ class App extends Component {
       {
         id: 2,
         title: "walk the dog",
-        completed: false
+        completed: true
       },
       {
         id: 3,
