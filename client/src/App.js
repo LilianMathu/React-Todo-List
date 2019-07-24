@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import Todos from "./Components/Todos";
-import Header from './Components/layout/header';
+import Header from "./Components/layout/header";
 import './App.css';
 
 class App extends Component {
@@ -28,7 +28,8 @@ class App extends Component {
     this.setState({
       todos: this.state.todos.map(todo => {
         if (todo.id === id) {
-          todo.completed = !todo.completed
+           { /*toggle state*/ }
+          todo.completed = !todo.completed   
         }
         return todo;
       })
